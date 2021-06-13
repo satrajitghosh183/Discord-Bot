@@ -2,7 +2,7 @@ discord==1.0.1
 discord.py==1.6.0
 python-dotenv==0.15.0
 youtube-dl==2021.2.10
-discord_token = "ODUyODgzNzU4MDc2MjY0NDY4.YMNT5Q.llFwXUewqnT6ORJYJTfu7mvLvXA"
+discord_token = "Bot Token"
 import discord
 from discord.ext import commands,tasks
 import os
@@ -108,7 +108,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
                 else:
                     await ctx.send("The bot is not playing anything at the moment.")
                     if __name__ == "__main__":
-                        bot.run("852883758076264468)
+                        bot.run("Discord Token")
                                 @ bot.event
                                 async
 
