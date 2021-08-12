@@ -6,7 +6,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('852883758076264468')
+TOKEN = os.getenv('id token')
 
 # Below cogs represents our folder our cogs are in.
 initial_extensions = ['cogs.music']
